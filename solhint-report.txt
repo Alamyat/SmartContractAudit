@@ -1,0 +1,37 @@
+
+SecurityExamples.sol
+   2:1   error    Compiler version ^0.8.20 does not satisfy the ^0.8.24 semver requirement                           compiler-version
+   4:1   warning  Missing @title tag in contract 'SecurityExamples'                                                  use-natspec
+   4:1   warning  Missing @author tag in contract 'SecurityExamples'                                                 use-natspec
+   4:1   warning  Missing @notice tag in contract 'SecurityExamples'                                                 use-natspec
+   5:5   warning  Rule is set with explicit type [var/s: uint]                                                       explicit-types
+   5:5   warning  Missing @notice tag in variable 'balances'                                                         use-natspec
+   6:5   warning  Missing @notice tag in variable 'owner'                                                            use-natspec
+   8:5   warning  Explicitly mark visibility in function (Set ignoreConstructors to true if using solidity >=0.7.0)  func-visibility
+  12:5   warning  Missing @notice tag in function 'deposit'                                                          use-natspec
+  17:5   warning  Missing @notice tag in function 'withdrawBad'                                                      use-natspec
+  17:5   warning  Missing @param tag in function 'withdrawBad'                                                       use-natspec
+  17:5   warning  Mismatch in @param names for function 'withdrawBad'. Expected: [_amount], Found: []                use-natspec
+  17:26  warning  Rule is set with explicit type [var/s: uint]                                                       explicit-types
+  18:9   warning  GC: Use Custom Errors instead of require statements                                                gas-custom-errors
+  18:17  warning  GC: Non strict inequality found. Try converting to a strict one                                    gas-strict-inequalities
+  20:9   warning  GC: Use Custom Errors instead of require statements                                                gas-custom-errors
+  25:5   warning  Missing @notice tag in function 'withdrawGood'                                                     use-natspec
+  25:5   warning  Missing @param tag in function 'withdrawGood'                                                      use-natspec
+  25:5   warning  Mismatch in @param names for function 'withdrawGood'. Expected: [_amount], Found: []               use-natspec
+  25:27  warning  Rule is set with explicit type [var/s: uint]                                                       explicit-types
+  26:9   warning  GC: Use Custom Errors instead of require statements                                                gas-custom-errors
+  26:17  warning  GC: Non strict inequality found. Try converting to a strict one                                    gas-strict-inequalities
+  29:9   warning  GC: Use Custom Errors instead of require statements                                                gas-custom-errors
+  32:5   warning  Missing @notice tag in function 'onlyOwnerBad'                                                     use-natspec
+  33:9   warning  GC: Use Custom Errors instead of require statements                                                gas-custom-errors
+  33:17  warning  Avoid to use tx.origin                                                                             avoid-tx-origin
+  36:5   warning  Missing @notice tag in function 'onlyOwnerGood'                                                    use-natspec
+  37:9   warning  GC: Use Custom Errors instead of require statements                                                gas-custom-errors
+
+✖ 28 problems (1 error, 27 warnings)
+
+ -------------------------------------------------------------------------- 
+ ===> Join SOLHINT Community at: https://discord.com/invite/4TYGq3zpjs <=== 
+ -------------------------------------------------------------------------- 
+
